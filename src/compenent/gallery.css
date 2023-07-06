@@ -1,0 +1,39 @@
+.gallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 130px;
+    min-height: 100vh;
+    padding-left:20px ;
+    padding-right: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+.gallery .btn{
+    display: flex;
+    gap: 10px;
+    width: 620px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery .btn button{
+   width: 80px;
+}
+
+.cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+.active {
+    background-color: black ;
+    color: white;
+}
